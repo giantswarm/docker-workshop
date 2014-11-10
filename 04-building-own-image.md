@@ -76,7 +76,7 @@ Solution:
 
 # Dockerfile
 FROM nginx
-ADD www /var/www/html
+ADD www /usr/share/nginx/html
 
 RUN nginx -t
 
